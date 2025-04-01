@@ -1,0 +1,9 @@
+resilience4j.circuitbreaker:
+  instances:
+    paymentServiceCircuitBreaker:
+      registerHealthIndicator: true
+      failureRateThreshold: 50  # Fail if the failure rate exceeds 50%
+      waitDurationInOpenState: 10000ms  # Wait for 10 seconds before trying again
+      permittedNumberOfCallsInHalfOpenState: 3
+      slidingWindowSize: 10
+      automaticTransitionFromOpenToHalfOpenEnabled: true

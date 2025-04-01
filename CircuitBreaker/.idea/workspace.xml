@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33c3f63-159f-4282-aa96-24cc079ec6dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../restTemplateExample/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../restTemplateExample/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customCB/src/main/java/com/practice/customCB/config/CircuitBreakerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customCB/src/main/java/com/practice/customCB/controller/CBcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customCB/src/main/java/com/practice/customCB/service/ProxyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customCB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customCB/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customCB/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../customCB/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Shreshth-112"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shreshth-112&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Shreshth-112/consume-externalAPI.git",
-    "accountId": "f550b2e4-2380-4b1c-bfb5-089a1f065465"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shreshth-112/consume-externalAPI.git&quot;,
+    &quot;accountId&quot;: &quot;f550b2e4-2380-4b1c-bfb5-089a1f065465&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -41,25 +45,25 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2v7cQBaM6U3blKDIdK2tu0tMSoQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CircuitBreakerApplication.executor": "Run",
-    "Maven.CircuitBreaker [clean,package].executor": "Run",
-    "Maven.CircuitBreaker [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SPALIYAL/Desktop/OSIF"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CircuitBreakerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CircuitBreaker [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CircuitBreaker [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SPALIYAL/Desktop/OSIF&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean package" />
