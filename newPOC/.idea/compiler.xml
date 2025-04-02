@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="prc-api" />
+        <module name="exp-api" />
         <module name="sys-api" />
+        <module name="prc-api" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="exp-api" options="-parameters" />
       <module name="prc-api" options="-parameters" />
       <module name="sys-api" options="-parameters" />
     </option>

@@ -23,7 +23,8 @@ public class PrcController {
     @GetMapping("/contacts")
     public List<Contact> getContactInfo() {
 
-        String url = "http://localhost:8083/sys/viewallcontacts";
+//        String url = "http://localhost:8083/sys/viewallcontacts";
+        String url = "http://sys-api/sys/viewallcontacts";
         ParameterizedTypeReference<List<Contact>> responseType = new ParameterizedTypeReference<List<Contact>>() {
         };
         ResponseEntity<List<Contact>> response = restTemplate.exchange(
