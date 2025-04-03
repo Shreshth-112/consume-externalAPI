@@ -23,16 +23,23 @@ public class PrcController {
     @GetMapping("/contacts")
     public List<Contact> getContactInfo() {
 
-//        String url = "http://localhost:8083/sys/viewallcontacts";
+
         String url = "http://sys-api/sys/viewallcontacts";
         ParameterizedTypeReference<List<Contact>> responseType = new ParameterizedTypeReference<List<Contact>>() {
         };
         ResponseEntity<List<Contact>> response = restTemplate.exchange(
                 url, HttpMethod.GET, null, responseType);
 
-        return response.getBody();
+        List<Contact> listToModify = response.getBody();
+
+        assert listToModify != null;
+        for (Contact c : listToModify) {
+            c.setPhone(404L);
+            c.setDepartment("some_Department_Code");
+        }
+
+        return listToModify;
 
     }
-
 
 }
