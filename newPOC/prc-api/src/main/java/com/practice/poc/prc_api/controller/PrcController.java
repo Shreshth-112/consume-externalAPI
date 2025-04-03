@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Collections;
 import java.util.List;
 
 @RestController
@@ -22,7 +21,6 @@ public class PrcController {
 
     @GetMapping("/contacts")
     public List<Contact> getContactInfo() {
-
 
         String url = "http://sys-api/sys/viewallcontacts";
         ParameterizedTypeReference<List<Contact>> responseType = new ParameterizedTypeReference<List<Contact>>() {
